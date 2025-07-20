@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&display=swap');
+
+:root{
+    --red: #E3646E;
+    --purple: #BB72E9;
+    --blue: #3996DB;
+    --green: #82BC4F;
+    --yellow: #EABD5F;
+    --gray-100: #E2E4E9;
+    --gray-200: #C0C4CE;
+    --gray-300: #878EA1;
+    --gray-400: #292C34;
+    --gray-500: #16181D;
+    --gray-600: #0D0E11;
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.title-lg, .title-md, .title-sm{
+    font-family: 'Asap', sans-serif;
+    line-height: 120%;
+    font-weight: bold;
+}
+
+.title-lg{
+    font-size: 5.6rem;
+    color: var(--gray-100);
+}
+
+.title-md{
+    font-size: 2.4rem;
+}
+
+.title-sm{
+    font-size: 1.6rem;
+}
+
+.subtitle{
+    font-family: 'Inconsolata', monospace;
+    font-size: 2rem;
+    line-height: 120%;
+    font-weight: regular;
+    color: var(--gray-200);
+}
+
+.text-md, .text-sm{
+    font-family: 'Maven Pro', sans-serif;
+    line-height: 140%;
+    font-weight: regular;
+}
+
+.text-md{
+    font-size: 1.6rem;
+    color: var(--gray-200);
+}
+
+.text-sm{
+    font-size: 1.4rem;
+    color: var(--gray-300);
+}
+
+#intro-title p span{
+    color: var(--red);
+}
+
+#intro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-image: url('./assets/images/Background_Intro.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    gap: 9.4rem;
+    position: relative;
+   
+}
+
+#info{
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+    margin: auto 12rem;
+    align-content: flex-start;
+}
+
+#intro-header{
+    display: flex;
+    flex-direction: column;
+    gap: 5.6rem;
+    text-align: center;
+    max-width: 680px;
+}
+
+#intro-avatar{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+#intro-avatar-image{
+    width: 8.7rem;
+    height: 8.7rem;
+    border-radius: 50%;
+}
+
+#intro-avatar-border{
+    position:absolute;
+    top: -0.55rem; 
+}
+
+#intro-text{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+#intro-tags{
+    display: flex;
+    gap: 0.8rem;
+    flex-wrap: wrap;
+}
+
+#intro-tags div{
+    display: flex;
+    gap: 0.8rem;
+    background-color: var(--gray-400);
+    padding: 0.8rem 1.6rem;
+    align-items: center;
+    border-radius: 3.2rem;
+}
+
+#intro-tags div img, #intro-tags div svg{
+    width: 2.4rem;
+}
+
+.color-red{
+    color: var(--red);
+}
+
+.double-arrow-btn{
+    color: var(--gray-300);
+    text-decoration: none;
+    font-size: 3.2rem;
+    position: absolute;
+    bottom: 30px;
+}
+
+#code-icon{
+    position:absolute;
+    color: var(--green);
+    font-size: 3.2rem; 
+    left: calc(50% + 5rem - 3.2rem);
+    bottom: -1.3rem;  
+    z-index: 2; 
+}
+
+#code-icon-stroke{
+    position: absolute;
+    font-size: 3.2rem;
+    left: calc(50% + 5rem - 3.2rem);
+    bottom: -1.3rem;  
+    z-index: 1; 
+    -webkit-text-stroke: 0.8rem var(--gray-500);
+}
+
+
+
+
+
+
